@@ -12,10 +12,10 @@
 	devtool: 'inline-source-map',
 	devServer: {
 		port: 3000,
-    proxy: {
+		proxy: {
       '*': {
         target: 'http://localhost:8000',
       }
-    }
+		}
 	},
 };
